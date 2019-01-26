@@ -1,0 +1,49 @@
+.cycle-slideshow.hotels {
+    margin-bottom:5px;
+    width: 100%;
+}
+.cycle-slideshow.content {
+}
+.cycle-arrow{
+    display: inline;
+    padding: 11px;
+    margin: -6px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 10;
+    cursor: pointer;
+    color: #555555;
+    text-align: center;
+    background-color: #eeeeee;
+    border: 1px solid #b3b3b9;
+    border-radius: 3px;
+    height: 40px !important;
+}
+#custom-caption {
+    color: black;
+    z-index: 1;
+    font-size: 16px;
+    background-color: #eeeeee;
+    width: 50%;
+    text-align: center;
+    border: 1px solid #b3b3b9;
+    display: inline-block;
+    margin: 0px;
+    height: 44px;
+    padding: 12px;
+}
+.cycle-arrow:active{
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+}
+.cycle-slide.cycle-slide-active {
+    display: block !important;
+}
+.cycle-slide {
+    display: none !important;
+    position: relative !important;
+    opacity: 1 !important;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<metadata>
+    <layout title="COM_ATOMS_SHOWCASE" />
+    <fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_atoms/models/fields">
+			<field name="key" type="key" hidden="true" />
+		</fieldset>
+	</fields>
+	<fields name="params">
+        <fieldset name="params">
+			<field
+				name="host_url"
+				type="text"
+				label="COM_ATOMS_HOST_URL"
+				required="true"
+				default="https://atom-s-alvoro.c9users.io/"
+				size="10"
+				filter="raw" />
+			<field 
+				name="api_key"
+				type="text"
+				label="COM_ATOMS_API_KEY"
+				required="true"
+				default=""
+				size="10"
+				filter="raw" />
+			<field 
+				name="api_version"
+				type="text"
+				label="COM_ATOMS_API_VERSION"
+				required="true"
+				default="1"
+				size="10"
+				filter="raw" />
+        </fieldset>
+    </fields>
+</metadata>

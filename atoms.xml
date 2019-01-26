@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<extension type="component" version="1.6.0" method="upgrade">
+    <name>com_atoms</name>
+    <author>Korotkov Vadim</author>
+    <authorEmail>hello@atom-s.com</authorEmail>
+    <authorUrl>https://atom-s.com/</authorUrl>
+    <copyright>Copyright (C) Atom-S LLC. All rights reserved.</copyright>
+    <license>GNU General Public License version 3 or later;</license>
+    <version>1.0.0</version>
+    <description>COM_ATOMS_DESC</description>
+    <creationDate>23/01/2019</creationDate>
+    <media destination="com_atoms" folder="media">
+		<filename>index.html</filename>
+		<folder>images</folder>
+		<folder>scripts</folder>
+		<folder>styles</folder>
+		<folder>fonts</folder>
+	</media>
+	<files folder="site">
+        <filename>index.html</filename>
+        <filename>atoms.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>models</folder>
+        <folder>views</folder>
+        <folder>helpers</folder>
+    </files>
+    <languages folder="site">
+        <language tag="ru-RU">language/ru-RU/ru-RU.com_atoms.ini</language>
+    </languages>
+    <administration>
+        <menu>COM_ATOMS</menu>
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>atoms.php</filename>
+            <filename>controller.php</filename>
+            <filename>config.xml</filename>
+            <filename>access.xml</filename>
+            <folder>models</folder>
+            <folder>views</folder>
+            <folder>helpers</folder>
+        </files>
+        <languages folder="admin">
+            <language tag="ru-RU">language/ru-RU/ru-RU.com_atoms.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.com_atoms.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

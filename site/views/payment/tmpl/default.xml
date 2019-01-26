@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<metadata>
+    <layout title="COM_ATOMS_PAYMENT"/>
+    <fields name="request">
+        <fieldset name="request" addfieldpath="/administrator/components/com_atoms/models/fields">
+			<field 
+				name="parent" 
+				type="menuitematom" 
+				default="" 
+				required="true"
+				check="payment"
+				label="COM_ATOMS_FIELD_REQUEST_SHOWCASE" 
+				description="" />
+		</fieldset>
+    </fields>
+</metadata>
